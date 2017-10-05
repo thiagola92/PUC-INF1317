@@ -40,3 +40,8 @@ Todas as interfaces fazem isso, isso poderia causar um problema de loop infinito
 Note que quem enviou não pode ficar verificando se mensagem é para ele, pois o repetidor iria repassar o pacote nesse mesmo tempo. Por isso que ao enviar um pacote, ela assumi que a próxima coisa que vai receber de volta é o mesmo pacote que enviou e então ela entra em um modo que joga fora a próxima coisa que receber.  
 
 Isso evita o problema de colisão, mas claramente isso pode dar algum problema. Imagina duas estações começam a transmitir ao mesmo tempo, cada uma vai jogar na informação do outro no lixo.  
+
+Anel consegue implementar broadcast da mesma maneira que barra, criando um endereço especial para broadcast.
+No final você consegue copiar todas caracteristicas da barra.  
+
+Agora note que a interface do anel tem que ser algo separado do computador, pois se um usuário fosse dormir e desligasse o computador, você perderia a conexão com todas as outras maquinas.  
