@@ -19,7 +19,9 @@ Precisa esperar a mensagem ser feita por completo para depois enviar por complet
 O computador que está recebendo fica com aquela conexão reservada esperando toda a mensagem chegar.  
 
 **Comutação de pacotes** é uma evolução da comutação de mensagens, pois agora você vai dividir uma mensagens em varias partes (chamaremos de pacotes). Você tem que botar o endereço em cada pacote e isso vai custar mais tempo, mas agora você pode já preparar pedaço da mensagem e enviar, isso vai acelerar bastante o envio de mensagem.  
+
 Cada pacote é encaminhado conforme fica pronto, mas a rota de cada pacote pode ser diferente pois a rede vai mandar o pacote pela rota que achar melhor (menos tráfico ou que demora menos para chegar no alvo).  
+
 Isso pode fazer com que pacotes cheguem fora de ordem, para solucionar esse problema os pacotes também vão incluir o número de sequência. Dessa maneira quando o pacote chegar no alvo, o alvo pode botar os pacotes em ordem e remontar a mensagem.  
 
 Por que é mais rápido do que comutação de mensagem?  
@@ -30,3 +32,10 @@ Comutação de mensagem
 ![Comutação de mensagem](1.PNG)  
 Comutação de pacotes  
 ![Comutação de pacotes](2.PNG)  
+
+Em comutação de circuitos o retardo(lag) é constante, pois uma conexão está sendo reservada para vocês, o retardo vai ser o mesmo desdo momento que você estabeleceu a conexão.  
+Em comutação de pacotes o retardo é variável, pois cada pacote pode levar um certo tempo de acordo com a rota que pegar para chegar no alvo.  
+
+### Formato do pacote
+Como você deveria organizar o pacote para ajudar em todo o processo de enviar os pacotes.  
+![Pacote](3.PNG)
