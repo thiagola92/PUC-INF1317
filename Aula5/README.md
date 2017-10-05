@@ -45,3 +45,6 @@ Anel consegue implementar broadcast da mesma maneira que barra, criando um ender
 No final você consegue copiar todas caracteristicas da barra.  
 
 Agora note que a interface do anel tem que ser algo separado do computador, pois se um usuário fosse dormir e desligasse o computador, você perderia a conexão com todas as outras maquinas. O mecanismo que cuida disso é chamado **bypass**, no momento de falha de um computador, ele automáticamente começa a transmitir a diante a mensagem.  
+
+![Interface do anel](3.PNG)  
+![Modos da interface](4.PNG)  
