@@ -21,5 +21,10 @@ Mas se quisermos mandar para todos? Teremos que mandar varias vezes e cada pacot
 
 Se uma pessoa desativar a parte do hardware que filtra pelo endereço, a pessoa entra em um modo **espião** pois vai poder ler qualquer mensagem que receber.  
 
+Duas estações podem começar a transmitir ao mesmo tempo, quando isso ocorre as informações acabam por se **colidir**, quando se colidem a informção vira lixo. Para solucionar isso, precisamos usar algum tipo de controle, no caso vamos fazer todos usarem uma mesma política para evitar colisão (ou seja, antes de transmitir vai obdecer uma regra).  
+**MAC**: Medium Acess Control  
+
+
+
 ### Anel 
 ![Anel](2.PNG)
