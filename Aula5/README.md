@@ -48,3 +48,10 @@ Agora note que a interface do anel tem que ser algo separado do computador, pois
 
 ![Interface do anel](3.PNG)  
 ![Modos da interface](4.PNG)  
+
+Concentrador passivo: Basicamente uma caixa que funciona como anel, tratando para caso uma das conexões falhe tudo continue operando normalmente.  
+![](5.PNG)  
+Concentrador passivo: Trouxe o repetidor para dentro da caixa. Ajuda a não ter perda de transmissão por ter um caminho muito grande.  
+![](6.PNG)  
+Duplo anel concentrados ativos: Um anel secundário para caso alguma das conexões do anel primário falhe.  
+![](7.PNG)  
