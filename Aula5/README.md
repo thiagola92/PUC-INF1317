@@ -55,3 +55,4 @@ Concentrador passivo: Trouxe o repetidor para dentro da caixa. Ajuda a não ter 
 ![](6.PNG)  
 Duplo anel concentrados ativos: Um anel secundário para caso alguma das conexões do anel primário falhe.  
 ![](7.PNG)  
+![](8.PNG)  
