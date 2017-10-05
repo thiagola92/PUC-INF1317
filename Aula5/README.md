@@ -30,3 +30,13 @@ No anel cada estação tem uma interface, um lado dessa interface só transmite,
 A interface verifica se o pacote é pra ela, se for ela lê.  
 
 Algumas pessoas acham que no momento que ela lê, ela não repassa mais a informação, isso está incorreto. A interface sempre passa o pacote a diante.  
+O anel tem um **repetidor**, no momento que a interface recebe um bit, ele repete esse bit para fora da interface (passa a diante).  
+Ele também repete cada bit que chega para um buffer interno da interface de 48 bits, que é justamente o tamanho do endereçamento no pacote.  
+Ou seja, no mesmo tempo que ele ta passando a diante os bits, ele está copiando.  
+
+Agora que você tem o endereçamento você verifica se é para sua estação, se for você continua a receber as informações. Mesmo se não fosse para a estação, o repetidor iria repetir os bits para fora (passar a diante).  
+
+Todas as interfaces fazem isso, isso poderia causar um problema de loop infinito. Para solucionar o problema, alguém tem que remover esse pacote do fluxo, o responsável por isso vai ser o mesmo que enviou o pacote.  
+Note que quem enviou não pode ficar verificando se mensagem é para ele, pois o repetidor iria repassar o pacote nesse mesmo tempo. Por isso que ao enviar um pacote, ela assumi que a próxima coisa que vai receber de volta é o mesmo pacote que enviou e então ela entra em um modo que joga fora a próxima coisa que receber.  
+
+Isso evita o problema de colisão, mas claramente isso pode dar algum problema. Imagina duas estações começam a transmitir ao mesmo tempo, cada uma vai jogar na informação do outro no lixo.  
