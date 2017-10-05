@@ -56,3 +56,10 @@ Concentrador passivo: Trouxe o repetidor para dentro da caixa. Ajuda a não ter 
 Duplo anel concentrados ativos: Um anel secundário para caso alguma das conexões do anel primário falhe.  
 ![](7.PNG)  
 ![](8.PNG)  
+
+## Estrela
+Caracteristica da estrela é ter um elemento central que participa da conexão seja como intermediário ou estilo. Isto é tipico de central telefonicas, não usado para conexão de computadores.  
+![](9.PNG)
+
+Qual o problema fisicamente disso? Estrela e anel são fisicamente idênticos. Olhando você não consegue diferênciar.  
+
