@@ -63,3 +63,12 @@ Caracteristica da estrela é ter um elemento central que participa da conexão s
 
 Qual o problema fisicamente disso? Estrela e anel são fisicamente idênticos. Olhando você não consegue diferênciar.  
 
+A descoberta foi que as aparências são diferentes mas se você parar pra notar se comportam igual, os computadores ligados a estrela acham que estão ligado a um anel, pois se comporta que nem um anel.  
+
+### Anel-estrela
+Lógicamente é um anel e fisicamente é uma estrela.  
+
+### Barra-estrela
+Lógicamente é uma barra e fisicamente é uma estrela.  
+Para isso acontecer bastava você ter um **Hub** (repetidor mutiporta), um aparelho que ao receber um sinal, devolve esse sinal em todas as portas.  
+A diferneça de um hub para um **switch** é que switch começa a decorar o endereçamento de cada porta, o que acaba se afastando de uma topológia barra.  
