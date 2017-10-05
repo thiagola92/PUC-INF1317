@@ -57,6 +57,7 @@ A central telefônica tem uma tabela de rotas para os telefones, nessa tabela ta
 A central que recebeu seu número reserva a sua conexão e pede para outra central tentar achar o número, essa segunda central repete esse procedimento.  
 Até que dessa forma você tenha uma conexão reservada para você até o outro número.  
 
+Considere azul pessoa e amarelo central.  
 ![](8.PNG)  
 ![](9.PNG)  
 ![](10.PNG)  
