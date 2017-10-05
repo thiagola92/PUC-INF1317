@@ -64,3 +64,14 @@ Considere azul pessoa e amarelo central.
 ![](11.PNG)  
 ![](12.PNG)  
 ![](13.PNG)  
+
+O nome de todo esse processo é **comutação de circuitos**.  
+O que você precisa saber sobre ele:  
+* Você precisa ter etapas de **estabelecimento** e **rompimento** de conexão.  
+  * Roteamento durante o estabelecimento.  
+  * Endereçamento é necessário para o estabelecimento.  
+  * Essas etapas são procedimentos de sinalização.  
+* Um **canal/caminho** continua reservado para os dois durante todo o tempo de **conexão/chamada/ligação**.  
+* O retardo de informações é constante, pois a conexão fica reservada para eles até eles terminarem de usar, então a demora é sempre a mesma para a informação chegar.  
+![Comutação de circuitos](14.PNG)
+
