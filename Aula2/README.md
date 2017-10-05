@@ -25,3 +25,11 @@ O procurado aqui é achar uma maneira de usar apenas uma infra estrutura para to
 Spoiler: A infra estrutura escolhida para isso foi a de computador.  
 
 (História)
+
+---
+
+Redes locais: Rede pequena para intereção de recursos
+P2P: Peer-to-peer  
+P2B: Peer-to-business  
+B2B: Business-to-business  
+IoT: Internet of Things
