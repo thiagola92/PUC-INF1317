@@ -44,4 +44,4 @@ Isso evita o problema de colisão, mas claramente isso pode dar algum problema. 
 Anel consegue implementar broadcast da mesma maneira que barra, criando um endereço especial para broadcast.
 No final você consegue copiar todas caracteristicas da barra.  
 
-Agora note que a interface do anel tem que ser algo separado do computador, pois se um usuário fosse dormir e desligasse o computador, você perderia a conexão com todas as outras maquinas.  
+Agora note que a interface do anel tem que ser algo separado do computador, pois se um usuário fosse dormir e desligasse o computador, você perderia a conexão com todas as outras maquinas. O mecanismo que cuida disso é chamado **bypass**, no momento de falha de um computador, ele automáticamente começa a transmitir a diante a mensagem.  
