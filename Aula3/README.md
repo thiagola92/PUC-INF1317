@@ -68,10 +68,17 @@ Considere azul pessoa e amarelo central.
 O nome de todo esse processo é **comutação de circuitos**.  
 O que você precisa saber sobre ele:  
 * Você precisa ter etapas de **estabelecimento** e **rompimento** de conexão.  
-  * Roteamento durante o estabelecimento.  
+  * Roteamento durante o estabelecimento (roteamento =  escolha da rota).  
   * Endereçamento é necessário para o estabelecimento.  
   * Essas etapas são procedimentos de sinalização.  
 * Um **canal/caminho** continua reservado para os dois durante todo o tempo de **conexão/chamada/ligação**.  
 * O retardo de informações é constante, pois a conexão fica reservada para eles até eles terminarem de usar, então a demora é sempre a mesma para a informação chegar.  
 ![Comutação de circuitos](14.PNG)
 
+Lado positivo de comutação de circuitos:
+* Ótimo para transferências continuas, tipo voz ou video. Nesse tipo de conexão é bom manter a conexão reservada para os dois que estão usando voz/video, se não causaria pausa na voz ou no video. (**tráfego contínuo**)  
+
+Lado negativo de comutação de circuitos:
+* Você vai estar reservando uma conexão, ou seja, enquanto você estiver usando ninguém mais pode usar. Imagina reserva um caminho para alguém que está apenas navegando na internet, ou seja, apenas baixa informação quando clica em algum link. (**tráfego de dados convencionais**)  
+
+Como pode ver traz um grande disperdicio reserva uma conexão inteira apenas para fazer coisas simples tipo carregar página ou baixar dados.  
