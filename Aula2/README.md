@@ -28,7 +28,11 @@ Spoiler: A infra estrutura escolhida para isso foi a de computador.
 
 ---
 
-Redes locais: Rede pequena para intereção de recursos
+Conforme necessidade surgiu, foi criado um sistema de comunicação para os computadores se comunicarem entre si.
+Redes locais: Rede pequena para intereção entre computadores
+
+---
+
 P2P: Peer-to-peer  
 P2B: Peer-to-business  
 B2B: Business-to-business  
