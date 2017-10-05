@@ -44,3 +44,22 @@ O total de cabos seria n.(n-1)/2.
 ### Topologia parcialmente ligada
 A ideia é ter menos cabos mas manter o grafo conexo, ou seja, qualquer um consegue chegar em qualquer um, mas não precisa ser diretamente. Você também não quer reduzir a ponto de tornar uma árvore, isso acabaria deixando 1 caminho sendo obrigátorio para muitos computadores na rede.    
 ![Parcialmente ligada](7.PNG)
+Agora você tem os problemas que a outra solucionava:  
+* Precisa endereçar, um método que diga de quem é a informação que você ta passando.   
+* Saber para quem passar a informação, quem sabe o alvo da informação. A solução para isso é cada computador ter uma tabela com os endereços possíveis, dizendo para quem você tem que passar para chegar no seu alvo.  
+* Se todos os cabos estivessem ocupados, você não conseguiria falar com aquele computador.  
+* Garantir que todos conseguem chegar em todos, vai precisar de um algoritmo para descobrir se adicionar ou remover um cabo vai tirar conectividade.  
+
+Como vamos fazer para garantir que uma informação chegue no alvo?  
+Como os telefones fazem para saber para quem é a ligação?  
+Dizendo o número da pessoa.  
+A central telefônica tem uma tabela de rotas para os telefones, nessa tabela também tem outras centrais que podem saber a rota para o número desejado.  
+A central que recebeu seu número reserva a sua conexão e pede para outra central tentar achar o número, essa segunda central repete esse procedimento.  
+Até que dessa forma você tenha uma conexão reservada para você até o outro número.  
+
+![](8.PNG)  
+![](9.PNG)  
+![](10.PNG)  
+![](11.PNG)  
+![](12.PNG)  
+![](13.PNG)  
