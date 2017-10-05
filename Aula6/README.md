@@ -1,1 +1,19 @@
 # Aula 6
+Nós analisamos a necessidade de padronização de rede.  
+
+## OSI
+Segue o princípio de "dividir para conquistar", criar diversas camadas onde cada uma se responsabiliza por uma tarefa.  
+Cada camada utiliza os serviços da camada abaixo e oferece serviços a camada acima.  
+Cada camada supõe que qualquer erro de fora dessa camada, vai ter sido tratado fora dessa camada e o que recebe não tem erro.  
+O padrão de como cada camada recebe ou passa informação permite a alteração da camada em si sem alterar as outras.  
+Com isso torna muito mais fácil modificações na rede sem alterar tudo ou quebrar algo.  
+
+## Camadas
+
+* **Aplicação*
+* **Apresentação*
+* **Sessão*
+* **Transporte*
+* **Rede**
+* **Enlace*
+* **Físico*
