@@ -6,15 +6,22 @@ Existia 3 tipos de serviços de comunicação:
 * Telefone
 * Computador
 
-O lado negativo disso era justamente você ter que gastar recursos para manter 3 serviços diferentes. Então desdo início juntar as 3 seria lucrativo, nós vamos ver os motivos disso não ter acontecido de cara.  
+O lado negativo disso era justamente você ter que gastar recursos para manter 3 infra estruturas diferentes. Então desdo início juntar as 3 seria lucrativo, nós vamos ver os motivos disso não ter acontecido de cara.  
 
-Telefonia tinha que fornecer: 
+Telefone tem que fornecer: 
 * Uma transmissão boa o suficiente para conseguir entender o que a outra pessoa do outro lado está falando.
 * Uma transmissão boa o suficiente para entender quem está falando do outro lado
 * Uma transmissão continua
 * Uma transmissão que segue uma relação temporal (a informação tem que chegar em uma certa ordem no outro lado da comunicação)
-* Uma transmissão interativa (ou seja, tempo de chegada ser o mais próximo de instantânea)
+* Uma transmissão interativa,ou seja, perto de ser uma transmissão instantânea
 
 Tudo isso se trata de comunicação por voz.  
 
-Computador
+Computador tem que fornecer:
+* Uma transferência não pode ter perda de dados (imagina se perde 1 bit em uma transferência bancaria)
+* Uma transferência não tem necessidade de ser instantânea
+
+O procurado aqui é achar uma maneira de usar apenas uma infra estrutura para todos e fornecer uma qualidade própria para cada tipo de serviço.  
+Spoiler: A infra estrutura escolhida para isso foi a de computador.  
+
+(História)
