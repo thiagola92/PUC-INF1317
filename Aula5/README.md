@@ -24,7 +24,9 @@ Se uma pessoa desativar a parte do hardware que filtra pelo endereço, a pessoa 
 Duas estações podem começar a transmitir ao mesmo tempo, quando isso ocorre as informações acabam por se **colidir**, quando se colidem a informção vira lixo. Para solucionar isso, precisamos usar algum tipo de controle, no caso vamos fazer todos usarem uma mesma política para evitar colisão (ou seja, antes de transmitir vai obdecer uma regra).  
 **MAC**: Medium Acess Control  
 
-
-
 ### Anel 
 ![Anel](2.PNG)
+No anel cada estação tem uma interface, um lado dessa interface só transmite, no outro só recebe. Isso cria um fluxo/sentido de transmissão, igual a um simplex, e todos no anel precisam seguir o mesmo fluxo.   
+A interface verifica se o pacote é pra ela, se for ela lê.  
+
+Algumas pessoas acham que no momento que ela lê, ela não repassa mais a informação, isso está incorreto. A interface sempre passa o pacote a diante.  
