@@ -38,4 +38,6 @@ Em comutação de pacotes o retardo é variável, pois cada pacote pode levar um
 
 ### Formato do pacote
 Como você deveria organizar o pacote para ajudar em todo o processo de enviar os pacotes.  
-![Pacote](3.PNG)
+![Pacote](3.PNG)  
+Destino, origem e sequência formam juntos o cabeçalho do pacote.  
+Informação é a parte útil do pacote.  
