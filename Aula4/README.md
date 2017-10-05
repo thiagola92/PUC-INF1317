@@ -45,6 +45,7 @@ Informação é a parte útil do pacote.
 ### Rede geograficamente distribuida
 Embora tenhamos representado a rede dessa maneira  
 ![Rede](4.PNG)  
-Essa não é a maneira certa pois nenhum usuário quer que o computador perca tempo com tarefas que não são para ele, por isso que não usamos isso no computador do usuário mas sim em um computador intermediário.  
+Essa não é a maneira certa pois nenhum usuário quer que o computador perca tempo com tarefas que não são para ele, por isso que não usamos isso no computador do usuário mas sim em um computador intermediário (chamado de **roteador**).  
 ![Rede](5.PNG)  
+Deixando claro a divisão  
 ![Rede](6.PNG)  
