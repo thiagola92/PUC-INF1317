@@ -19,4 +19,9 @@ O modelo OSI propoem dividir em 7 camadas.
 * **Enlace**
 * **Físico**
 
-![Transferência de dados](1.gif)
+Transferência de dados
+![Transferência de dados](1.gif)  
+
+Como pode ver cada camada acrescenta mais informação ao pacote da pessoa que quer transmitir dados, por sua vez o receptor tem essas mesmas camadas justamente para ler essas partes de informações.  
+Algumas camadas podem botar apenas no ínicio do seu pacote a informação extra, outras botam no ínicio e no fim... Cada camada segue seu estilo, o que importa é que o receptor saiba como é.  
+![Transferência de dados](1.png)  
