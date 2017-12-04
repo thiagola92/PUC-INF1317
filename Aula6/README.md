@@ -26,3 +26,23 @@ Algumas camadas podem botar apenas no ínicio do seu pacote a informação extra
 SDU (**Service Data Unit**) são os dados recebidos justamente da camada de cima, sem ter tido qualquer alteração.  
 PDU (**Protocol Data Unit**) são os dados já encapsulados no protocolo da camada. Esse é passado para a próxima camada como o SDU dela.  
 ![SDU PDU](2.png)  
+
+# Físico
+* Transmissão de bits através de um canal de comunicação (cabo/wifi/...)
+* Características do meio físico e da transmissão do sinal
+  * Características mecânicas
+  * Características elétricas
+  * Características funcionais
+  * Características procedurais
+  
+# Enlace
+* Detecta e opcionalmente corrige erros que por ventura ocorram no nível físico (dessa maneira aumentando a confiabilidade da informação)
+* Transmissão e recepção de quadros (delimitação)
+* Controle de fluxo
+
+# Rede
+* Roteamento (decidir o caminho do pacote até o destino)
+* Encaminhamento
+
+# Transporte
+* 
