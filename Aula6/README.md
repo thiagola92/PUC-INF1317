@@ -9,11 +9,14 @@ O padrão de como cada camada recebe ou passa informação permite a alteração
 Com isso torna muito mais fácil modificações na rede sem alterar tudo ou quebrar algo.  
 
 ## Camadas
+O modelo OSI propoem dividir em 7 camadas.
 
-* **Aplicação*
-* **Apresentação*
-* **Sessão*
-* **Transporte*
+* **Aplicação**
+* **Apresentação**
+* **Sessão**
+* **Transporte**
 * **Rede**
-* **Enlace*
-* **Físico*
+* **Enlace**
+* **Físico**
+
+![Transferência de dados](1.gif)
