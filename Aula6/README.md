@@ -54,6 +54,9 @@ PDU (**Protocol Data Unit**) são os dados já encapsulados no protocolo da cama
 
 ![fim-a-fim](3.jpg)
 
+Por que Transporte precisa fazer detectação de erro? Para verificar se os protocolos justamente dessa camada foram seguidos.  
+Por que Enlace precisa fazer detectação de erro se Transporte já faz? Imagina que em alguma parte do caminho deu erro, você apenas jogaria esse dado no lixo quando chegasse na fonte. Mais fácil fazer detectar o mais cedo possível para tirar da rede.  
+
 # Sessão
 * Controle de Diálogo
   * Pontos de sincronização
@@ -61,3 +64,18 @@ PDU (**Protocol Data Unit**) são os dados já encapsulados no protocolo da cama
 * Controle dee Atividade
   * Agrupamento lógico de diálogos
   * Cada atividade corresponde a uma tarefa que pode ser interrompida e posteriormente retomada
+
+# Apresentação
+
+# Aplicação
+
+# Tabela
+Uma tabela para ajudar você +/- a entender o que fica em cada etapa (usarei apenas coisas mais populares)
+
+| Físico | Enlace | Rede | Transporte | Sessão | Apresentação | Aplicação |
+| ------ | ------ | ---- | ---------- | ------ | ------------ | --------- |
+| Modem, Wi-Fi, Bluetooth, USB, Cabo... | Ethernet | IP(IPv4, IPv6) | TCP, UDP | ? | ? | HTTP, DNS, BitTorrent |
+
+Wikipedia contém tabelas melhores:  
+https://pt.wikipedia.org/wiki/Modelo_OSI  
+https://en.wikipedia.org/wiki/OSI_model  
