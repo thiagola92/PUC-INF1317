@@ -37,6 +37,7 @@ PDU (**Protocol Data Unit**) são os dados já encapsulados no protocolo da cama
   
 # Enlace
 * Detecta e opcionalmente corrige erros que por ventura ocorram no nível físico (dessa maneira aumentando a confiabilidade da informação)
+  * Quando detectar erro (e não conseguir corrigir) deve-se jogar a informação fora, a camada acima não deve receber informação incorreta/corrompida...
 * Transmissão e recepção de quadros (delimitação)
 * Controle de fluxo
 
@@ -45,4 +46,18 @@ PDU (**Protocol Data Unit**) são os dados já encapsulados no protocolo da cama
 * Encaminhamento
 
 # Transporte
-* 
+* Fornece uma comunicação fim-a-fim, ou seja, elas não passam nenhuma informação que é útil para as camadas abaixo, a informação dela é útil apenas para a própria camada
+  * Detectação de erros fim-a-fim
+  * Controle de fluxo fim-a-fim (opcional)
+  * Recuperação de erros fim-a-fim (opcional)
+* Segmentação e remontagem de mensagens
+
+![fim-a-fim](3.jpg)
+
+# Sessão
+* Controle de Diálogo
+  * Pontos de sincronização
+  * Recuperação da sessão em caso de falhas
+* Controle dee Atividade
+  * Agrupamento lógico de diálogos
+  * Cada atividade corresponde a uma tarefa que pode ser interrompida e posteriormente retomada
