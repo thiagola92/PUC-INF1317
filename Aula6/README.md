@@ -128,4 +128,13 @@ Modelo OSI diz que camada pode ter protocolo que é **orientado a conexão** ou 
   * Estabelecimento da conexão
   * Transmissão da informação
   * Encerramento da conexão
-* 
+* Negociação dos parâmetros e opções que governam a transmissão
+* Identificador da conexão (redução do overhead de endereçamento)
+* Relacionamento lógico entre as unidades de informação
+  * Sequênciação
+  * Controle de fluxo (apenas mandar o pacote quando o outro lado falar que tem espaço para receber)
+
+## Não orientada a conexão
+* Transmissão de uma única unidade de dados
+* Toda informação necessária é enviada junto com a unidade de dados
+
