@@ -13,6 +13,8 @@ IEEE propôs dividir o enlace em duas partes, LLC e MAC, acima dessas camadas IE
 * Método de codificação
 * Taxa de transmissão
 
+**Motivação da camada**: Igual a camada do OSI.  
+
 # MAC
 Medium Access Control
 * Organização do acesso ao meio físico compartilhado
@@ -25,6 +27,8 @@ Medium Access Control
   * Token Ring (802.5)
   * DQDB (802.6)
   * etc
+  
+**Motivação da sub-camada**: Controlar quando se pode transmitir para outra estação, detectação de erro e endereçamento.  
 
 # LLC
 Logic Link Control
@@ -34,3 +38,4 @@ Logic Link Control
 * Controle de erros e de fluxo
 * Tipos de operação
 * Classes de procedimento
+
