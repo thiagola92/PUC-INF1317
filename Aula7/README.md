@@ -2,7 +2,7 @@
 (Modelo OSI adotou a parte do IEEE eventualmente)  
 ![Arquitetura IEEE](1.png)  
 
-IEEE propôs dividir o enlace em duas partes, LLC e MAC (Controle de Acesso ao Meio).
+IEEE propôs dividir o enlace em duas partes, LLC e MAC, acima dessas camadas IEEE não liga como é. 
 
 # Físico
 * Estabelecimento, manutenção e liberação de conexões físicas
