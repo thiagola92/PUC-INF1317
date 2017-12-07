@@ -113,3 +113,19 @@ Uma tabela para ajudar você +/- a entender o que fica em cada etapa (usarei ape
 Wikipedia contém tabelas melhores:  
 https://pt.wikipedia.org/wiki/Modelo_OSI  
 https://en.wikipedia.org/wiki/OSI_model  
+
+# Modos de comunicação
+Modelo OSI diz que camada pode ter protocolo que é **orientado a conexão** ou **não orientado a conexão**.  
+
+| Circuito virtual | Datagrama |
+| ---------------- | --------- |
+| Orientado a conexão | Não orientado a conexão |
+| Confiável | Não confiável |
+| Garante entrega a ordenada | Não garante entnrega ordenada |
+
+## Orientada a conexão
+* Fases
+  * Estabelecimento da conexão
+  * Transmissão da informação
+  * Encerramento da conexão
+* 
