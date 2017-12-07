@@ -115,7 +115,7 @@ https://pt.wikipedia.org/wiki/Modelo_OSI
 https://en.wikipedia.org/wiki/OSI_model  
 
 # Modos de comunicação
-Modelo OSI diz que camada pode ter protocolo que é **orientado a conexão** ou **não orientado a conexão**.  
+Modelo OSI diz que qualquer camada pode ter protocolo que é **orientado a conexão** ou **não orientado a conexão**.  
 
 | Circuito virtual | Datagrama |
 | ---------------- | --------- |
