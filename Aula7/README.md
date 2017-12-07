@@ -28,4 +28,9 @@ Medium Access Control
 
 # LLC
 Logic Link Control
-* Controle de erro de fluxo
+* Independência da camada MAC
+* LSAPs
+* Multiplexação
+* Controle de erros e de fluxo
+* Tipos de operação
+* Classes de procedimento
