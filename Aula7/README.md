@@ -39,3 +39,6 @@ Logic Link Control
 * Tipos de operação
 * Classes de procedimento
 
+**Motivação da sub-camada**: Acaba por ser mais as partes opcionais, correção de erro, confiabilidade...
+
+# Arquitetura TCP/IP (Internet)
