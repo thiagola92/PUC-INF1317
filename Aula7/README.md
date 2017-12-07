@@ -42,3 +42,7 @@ Logic Link Control
 **Motivação da sub-camada**: Acaba por ser mais as partes opcionais, correção de erro, confiabilidade...
 
 # Arquitetura TCP/IP (Internet)
+Já tinha a idéia de que você formaria uma rede grande atráves de redes menores autonomias, ou seja, inter-redes.  
+![arquitetura tcp/ip](2.png)  
+Aplicação, apresentação e sessão viram apenas uma camada, chamada aplicação.   
+A camada de transporte continua sendo igual mas obrigaram a saberem pelo menos 2 protocolos (TCP e UDP, um para circuito virtual e outro para datagrama).  
