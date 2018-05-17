@@ -1,4 +1,4 @@
-# Aula 2
+# Aula-01
 Aula sobre a história da evolução das comunicações.
 
 Existia 3 tipos de serviços de comunicação:
@@ -8,7 +8,7 @@ Existia 3 tipos de serviços de comunicação:
 
 O lado negativo disso era justamente você ter que gastar recursos para manter 3 infra estruturas diferentes. Então desdo início juntar as 3 seria lucrativo, nós vamos ver os motivos disso não ter acontecido de cara.  
 
-Telefone tem que fornecer: 
+Telefone tem que fornecer:
 * Uma transmissão boa o suficiente para conseguir entender o que a outra pessoa do outro lado está falando.
 * Uma transmissão boa o suficiente para entender quem está falando do outro lado
 * Uma transmissão continua

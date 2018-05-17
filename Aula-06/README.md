@@ -2,7 +2,7 @@
 (Modelo OSI adotou a parte do IEEE eventualmente)  
 ![Arquitetura IEEE](1.png)  
 
-IEEE propôs dividir o enlace em duas partes, LLC e MAC, acima dessas camadas IEEE não liga como é. 
+IEEE propôs dividir o enlace em duas partes, LLC e MAC, acima dessas camadas IEEE não liga como é.
 
 # Físico
 * Estabelecimento, manutenção e liberação de conexões físicas
@@ -27,7 +27,7 @@ Medium Access Control
   * Token Ring (802.5)
   * DQDB (802.6)
   * etc
-  
+
 **Motivação da sub-camada**: Controlar quando se pode transmitir para outra estação, detectação de erro e endereçamento.  
 
 # LLC
